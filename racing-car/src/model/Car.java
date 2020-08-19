@@ -14,6 +14,6 @@ public class Car {
 
     public void behavior(){
         int val = (int)Math.random() * 10;
-        this.position += (val > Util.MOVE_STANDARD)? 1 : 0;
+        this.position += (val > Standard.MOVE_STANDARD)? 1 : 0;
     }
 }
