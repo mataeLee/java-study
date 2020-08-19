@@ -5,7 +5,7 @@ import model.Car;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Observe {
+public class Observer {
     public static void check(Car car){
         StringBuilder sb = new StringBuilder();
         for(int i=0; i<car.getPosition(); i++)
