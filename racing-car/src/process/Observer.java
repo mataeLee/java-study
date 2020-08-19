@@ -1,8 +1,6 @@
 package process;
 
 import model.Car;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class Observer {
@@ -12,7 +10,10 @@ public class Observer {
             sb.append("-");
         System.out.println(car.getName() + " : " + sb.toString());
     }
-    public static void result(List<Car> cars){
-        List<String> winners = new ArrayList<>();
+    public static void result(List<String> res){
+        System.out.print("Winner is : " + res.get(0));
+        for(int i=1; i<res.size(); i++){
+            System.out.print(", " + res.get(i));
+        }
     }
 }
