@@ -13,14 +13,6 @@ public class Car implements Comparable<Car>{
         positionShape = Standard.CAR_BASE_POSITION_SHAPE;
     }
 
-//    public int getPosition(){
-//        return position;
-//    }
-//
-//    public String getName() {
-//        return name;
-//    }
-
     public void behavior(){
         int val = (int)(Math.random() * Standard.CAR_MOVE_RANDOM_RANGE);
         this.position += (val > Standard.MOVE_STANDARD)? Standard.CAR_MOVE_VAL : Standard.CAR_STOP_VAL;
@@ -29,6 +21,10 @@ public class Car implements Comparable<Car>{
 
     public void showPosition(){
         System.out.println(this.name + Standard.COLON + positionShape);
+    }
+
+    public void showName(){
+        System.out.print(this.name);
     }
 
     @Override
