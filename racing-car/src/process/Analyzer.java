@@ -1,8 +1,10 @@
 package process;
 
+import model.Car;
 import standard.Standard;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Analyzer {
@@ -16,7 +18,27 @@ public class Analyzer {
         return names;
     }
 
-    public void decider(){
+    public List<Car> decider(List<Car> cars){
+        List<Car> winners = new ArrayList<>();
+        Car max = cars.get(0);
+        winners.add(cars.get(0));
+        for(int i=1; i<cars.size(); i++){
+            Car car = compare(cars.get(i), max);
+            addWinner(winners, car);
+        }
+        return winners;
+    }
 
+    private Car compare(Car car, Car max){
+        if(max.compareTo(car) > 0) return null;
+        return car;
+    }
+
+    private void addWinner(List<Car> winners, Car car){
+        if(car != null) winners.add(car);
+    }
+
+    public void ranking(List<Car> cars){
+        Collections.sort(cars, Collections.reverseOrder());
     }
 }
