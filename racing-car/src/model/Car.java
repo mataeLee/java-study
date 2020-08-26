@@ -3,7 +3,7 @@ package model;
 import standard.Standard;
 
 public class Car implements Comparable<Car>{
-    private final String name;
+    private String name;
     private int position;
     private String positionShape;
 
@@ -19,13 +19,9 @@ public class Car implements Comparable<Car>{
         this.positionShape += (val > Standard.MOVE_STANDARD)? Standard.CAR_MOVE_POSITION_SHAPE : Standard.CAR_STOP_POSITION_SHAPE;
     }
 
-    public void showPosition(){
-        System.out.println(this.name + Standard.COLON + positionShape);
-    }
+    public String getName() { return name; }
 
-    public void showName(){
-        System.out.print(this.name);
-    }
+    public String getPositionShape() { return positionShape; }
 
     @Override
     public int compareTo(Car o) {
