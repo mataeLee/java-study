@@ -1,7 +1,7 @@
-import process.Game;
+import controller.GameController;
 
 public class Main {
     public static void main(String[] args) {
-        Game.getInstance().run();
+        new GameController().run();
     }
 }
