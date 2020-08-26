@@ -3,6 +3,7 @@ package controller;
 import analyzer.ContentAnalyzer;
 import analyzer.RankAnalyzer;
 import analyzer.WinnerAnalyzer;
+import factory.CarFactory;
 import model.Car;
 import view.InputView;
 import view.OutputView;
