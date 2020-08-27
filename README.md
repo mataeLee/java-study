@@ -1,6 +1,7 @@
 # Java-study
 제약 조건이 걸린 미션 솔루션(java 언어 기반)을 통해 효과적인 코드나 품질을 생각한 코드를 작성하는 연습하기.
-
+## 미션
+- [Racing-car](https://github.com/mataeLee/java-study/tree/master/racing-car)
 ## 제약 조건
 - 함수가 단일 동작을 할 수 있도록 구현한다.
 - indent(인덴트, 들여쓰기) depth를 최대한 줄인다.
