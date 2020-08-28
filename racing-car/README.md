@@ -29,5 +29,6 @@ __자동차 경주 게임.__
 - 가능하면 setter 메소드를 추가하지 않고 구현한다.
 
 ## Reference
+링크를 참고하여 가능한 자바 컨벤션을 지키면서 프로그래밍 하자.  
 - https://myeonguni.tistory.com/1596
 - https://google.github.io/styleguide/javaguide.html
