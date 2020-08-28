@@ -22,7 +22,7 @@ __자동차 경주 게임.__
 - switch/case 를 사용하지 않고 구현한다.
 
 ## Car
-- 다음 Car 객체를 활용해 구현한다.
+- 다음 Car 객체를 활용해 구현한다.  
 ![](https://github.com/mataeLee/java-study/blob/master/racing-car/resource/Car.png)
 - Car의 생성자를 추가 할 수 없다.
 - name, position필드의 접근제어자 private을 변경 할 수 없다.
