@@ -1,5 +1,6 @@
 # Java-study
-제약 조건이 걸린 미션 솔루션(java 언어 기반)을 통해 효과적인 코드나 품질을 생각한 코드를 작성하는 연습하기.
+OOP(Object-Oriented Programming)에 기반하여 객체지향적으로 생각하고 코딩하기.   
+제약 조건이 걸린 미션 솔루션을 통해 효과적인 코드나 품질을 생각한 코드를 작성하는 연습하기.   
 ## 미션
 - [Racing-car](https://github.com/mataeLee/java-study/tree/master/racing-car)
 ## 제약 조건
